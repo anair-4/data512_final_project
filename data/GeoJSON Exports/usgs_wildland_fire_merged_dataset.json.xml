@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<metadata xml:lang="en">
+	<Esri>
+		<CreaDate>20211129</CreaDate>
+		<CreaTime>07495100</CreaTime>
+		<ArcGISFormat>1.0</ArcGISFormat>
+		<SyncOnce>TRUE</SyncOnce>
+	</Esri>
+	<mdChar>
+		<CharSetCd value="004"/>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd value="005"/>
+	</mdHrLv>
+	<mdDateSt>20211019</mdDateSt>
+	<mdStanName>ArcGIS Metadata</mdStanName>
+	<mdStanVer>1.0</mdStanVer>
+	<dataIdInfo>
+		<idCitation>
+			<resTitle>USGS_Wildland_Fire_Combined_Dataset</resTitle>
+			<presForm>
+				<PresFormCd value="005"/>
+			</presForm>
+			<presForm>
+				<fgdcGeoform>vector digital data</fgdcGeoform>
+			</presForm>
+		</idCitation>
+		<idAbs>See the Wildland_Fire_Polygon_Metadata.xml document for complete metadata.</idAbs>
+		<idPurp>See the Wildland_Fire_Polygon_Metadata.xml document for complete metadata.</idPurp>
+		<idCredit>USGS. Justin L. Welty and Michelle I. Jeffries</idCredit>
+		<themeKeys>
+			<keyword>Wildland Fire</keyword>
+			<keyword>Prescribed Fire</keyword>
+		</themeKeys>
+		<searchKeys>
+			<keyword>Wildland Fire</keyword>
+			<keyword>Prescribed Fire</keyword>
+		</searchKeys>
+		<spatRpType>
+			<SpatRepTypCd value="001"/>
+		</spatRpType>
+		<envirDesc>Esri ArcGIS 12.8.0.29751</envirDesc>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox>
+					<exTypeCode>true</exTypeCode>
+					<westBL>-180.000000</westBL>
+					<eastBL>180.000000</eastBL>
+					<northBL>84.130002</northBL>
+					<southBL>5.980164</southBL>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+	</dataIdInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<geometObjs>
+				<geoObjTyp>
+					<GeoObjTypCd value="001"/>
+				</geoObjTyp>
+				<geoObjCnt>135061</geoObjCnt>
+			</geometObjs>
+		</VectSpatRep>
+	</spatRepInfo>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>USGS_Wildland_Fire_Combined_Dataset</enttypl>
+				<enttypds>CAL FIRE FRAP</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>USGS_Assigned_ID</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Assigned_Fire_Type</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Fire_Year</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Fire_Polygon_Tier</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Fire_Attribute_Tiers</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>GIS_Acres</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>GIS_Hectares</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Source_Datasets</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Listed_Fire_Types</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Listed_Fire_Names</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Listed_Fire_Codes</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Listed_Fire_IDs</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Listed_Fire_IRWIN_IDs</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Listed_Fire_Dates</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Listed_Fire_Causes</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Listed_Fire_Cause_Class</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Listed_Rx_Reported_Acres</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Listed_Map_Digitize_Methods</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Listed_Notes</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Processing_Notes</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Wildfire_Notice</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Prescribed_Burn_Notice</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Circle_Flag</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Overlap_Within_1_or_2_Flag</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Circleness_Scale</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Wildfire_and_Rx_Flag</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Exclude_From_Summary_Rasters</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Length</attrlabl>
+				<attrdef>Length of feature in internal units.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Area</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+		<overview>
+			<eaover>
+Condition Class:
+Condition class refers to the general deviation of ecosystems from their pre-settlement natural
+fire regime (See attributes REGIME and REGIME_CAL of Cal Fire Fire Regime and Condition Class data set a the same location as this data), and can be viewed as a measure of sensitivity to
+fire damage to key elements and processes typical of those ecosystems, or fire-related risk to
+ecosystem health. Fundamental to this idea is that current expected fires are compared to
+historic fire regimes with respect to fire frequency, size and patchiness, and effects on key
+ecosystem elements and processes. These classes are then assigned based on current vegetation
+type and structure, an understanding of its pre-settlement fire regime, and current conditions
+regarding expected fire frequency and potential fire behavior. Condition Classes were thus
+defined as the relative risk of losing key components that define an ecosystem (Hardy et al.,
+2001). The conceptual basis is that for fire-adapted ecosystems, much of their ecological
+structure and processes are driven by fire, and disruption of fire regimes leads to changes in plant composition and structure, uncharacteristic fire behavior and other disturbance agents (pests),
+altered hydrologic processes and increased smoke production. Condition Class 1 is associated
+with low level disruption of fire regime, and consequently low risk to loss or damage. Condition
+Class 2 indicates some degree of departure from natural regimes, with associated changes in
+ecosystem composition and structure that render future fires a likelihood of some loss and
+change in elements and processes. Condition class 3 is highly divergent from natural regime
+conditions, and presents the highest level of risk of loss.  For more information of condition classes see: Hann, Wendel J. 2002. Mapping fire regime condition class: a method for watershed and project scale analysis.  
+CON_CLASS DESCRIPTION
+------------------ --------------------
+1 Fire regime within or near historical range. Risk of key ecosystem component
+loss low.
+2 Fire regime moderately altered from historical range. Risk of key ecosystem
+component loss moderate.
+3 Fire regime significantly altered from historical range. Risk of key ecosystem
+component loss high.
+Please direct questions regarding assigning this attribute to David Sapsis, 916.445.5369
+</eaover>
+			<eadetcit>As of Jan 1st, 2007 the term CAL FIRE will be used in reference to CDF and The California Department of Fosetry and Fire Protection. 2006 fire perimeters still use the term "CDF".</eadetcit>
+		</overview>
+	</eainfo>
+</metadata>
